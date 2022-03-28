@@ -1,0 +1,1 @@
+<p class='text-center'>© 2022 Valentin BRUNEEL</p>
