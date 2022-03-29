@@ -1,5 +1,5 @@
 <form method="post" 
-class="<?= $hide?>">
+class="" action="index.php">
     <h3>Formulaire d'ajout des données</h3>
   <div class="form-group">
     <label for="inputPrenom">Prénom</label>
@@ -21,13 +21,13 @@ class="<?= $hide?>">
         <input type="number" step="0.01" min="1.6" max="2" class="form-control" id="taille" placeholder="taille" name="inputTaille">
       </div>
   <div class="form-check">
-    <input class="form-check-input" type="radio" name="role" id="apprenant" value="option1" checked>
+    <input class="form-check-input" type="radio" name="role" id="apprenant" value="Apprenant" checked>
     <label class="form-check-label" for="apprenant">
     Apprenant
     </label>
 </div>
 <div class="form-check">
-    <input class="form-check-input" type="radio" name="role" id="formateur" value="option2">
+    <input class="form-check-input" type="radio" name="role" id="formateur" value="Formateur">
     <label class="form-check-label" for="formateur">
         Formateur
     </label>
