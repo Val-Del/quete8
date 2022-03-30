@@ -60,8 +60,9 @@ class="" action="test.php">
                 if (empty($_POST['role'])){
                     echo "Role requis <br>";
                 }
-                if (!empty($_POST['inputPrenom']) && !empty($_POST['inputNom']))  {
-                    echo "test";
+                if (!empty($_POST['inputPrenom']) && !empty($_POST['inputNom']) && !empty($_POST['inputAge']) && !empty($_POST['inputTaille']) && !empty($_POST['role']))  {
+                    echo '<div class="alert alert-secondary" role="alert">
+                    Valider </div>';
                 }
             }
             ?> 
